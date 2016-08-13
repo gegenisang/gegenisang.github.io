@@ -3,10 +3,58 @@
 <head>
 	<meta charset="utf-8">
 	<title>练习</title>
+	<style type="text/css">
+	*{
+		margin:0px;
+		padding: 0px;
+
+	}
+	li{
+		list-style: none;
+	}
+	em{
+		transform-style: none;
+	}
+	#red{
+		height: 39px;
+		border-bottom: 1px solid #ccc;
+	}
+		.lis{
+			float: right;
+		}
+		.lis li{
+			height: 15px;
+			float: left;
+			text-align: center;
+			line-height: 39px;
+			}
+		.lis a{
+			padding-right: 10px;
+			margin-left: 10px;
+			text-decoration: none;
+			color: #999;
+			border-right: 1px dotted #ccc;
+
+		}
+		.lis em{
+			display: inline-block;
+			width: 17px;
+			height: 20px;
+			margin: auto -10px -6px 5px;
+			background: url(./img/sprite1.png)no-repeat 0px -21px;
+		}
+
+	</style>
 </head>
 <body>
-  	<ul>
-  		
+	<div id="red">
+  	<ul class="lis">
+  		<li><em></em><a href="javascript:;">苹果</a></li>
+  		<li><em></em><a href="javascript:;">香蕉</a></li>
+  		<li><em></em><a href="javascript:;">水蜜桃</a></li>
+  		<li><em></em><a href="javascript:;">西瓜</a></li>
+  		<li><em></em><a href="javascript:;">火龙果</a></li>
   	</ul>
+  </div>
 </body>
 </html>

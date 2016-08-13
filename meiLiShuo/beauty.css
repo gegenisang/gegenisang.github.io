@@ -6,7 +6,9 @@ body{
 img{
 	border: none;
 }
-
+em{
+	transform-style: none;
+}
 li{
 	list-style-type: none;
 }
@@ -48,70 +50,36 @@ a:hover{
 	text-align: center;
 	
 }
-.topnav-a{
-	position: absolute;
-	top: 10px;
-	left: -5px;
-     display: inline-block;
-     width: 17px;
-     height: 20px;
+.topnav em{
+	display: inline-block;
+	margin-bottom: -5px;
+	margin-right: -13px;
+}
 
-     background: url(./img/sprite1.png)no-repeat 0px -21px;
+.topnav-a{
+	width: 17px;
+	height: 18px;
+	background: url(./img/sprite1.png)no-repeat 0px -21px;
 }
 .topnav-b{
+	width: 15px;
+	height: 17px;
+	margin-left: 19px;
 	background: url(./img/sprite1.png)no-repeat -189px -21px;
-     
 }
-
-/*
-#top .topnav{
-	float: right;
-
-}
-#top .topnav li{
-	float: left;
-	height: 39px;
-	line-height: 39px;
-	text-align: center;
-	padding-left: 15px;
-	margin-right: 16px;
- }
-
-
-}
-.topnav a{
-	color:#666;
-	font-size: 12px;
-	line-height: 39px;
-	border-right: 1px dotted #ccc;
-}
-.topnav span{
-	
-}
-.topnav .not-dot{
-	border-right: none;
-}
-
-
-.topnav-a{
-	display: inline-block;
-	width: 18px;
-	height: 20px;
-    line-height: 39px;
-    background: url(./img/sprite1.png) no-repeat 0px -21px;
-}
-
-.topnav .topnav-b{
-
-	background: url(./img/sprite1.png) no-repeat -189px -21px;
-}
-.topnav .topnav-c{
+.topnav-c{
+	width: 13px;
+	height:17px;
+	margin-left: 15px;
 	background: url(./img/1.png) no-repeat;
 }
-.topnav .topnav-d{
+.topnav-d{
+	width: 12px;
+	height: 17px;
+	margin-left: 15px;
 	background: url(./img/sprite1.png) no-repeat -171px -45px;
 }
-*/
+
 #header{
 	position: relative;
     margin: 0 auto;
