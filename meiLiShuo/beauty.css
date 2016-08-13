@@ -23,45 +23,82 @@ a:hover{
 }
 #top{
 	height: 39px;
-	margin: 0 auto;
 	background: #f5f5f5;
 	border-bottom: 1px solid #eee;
 }
 
+.topnav{
+	float: right;
 
+}
+.topnav li{
+	position: relative;
+	float: left;
+	
+	
+}
+.topnav a{
+	color: #999;
+	font-size: 12px;
+	line-height: 39px;
+	border-right: 1px dotted #ccc;
+	margin-left: 15px;
+	padding-right: 16px;
+	height: 39px;
+	text-align: center;
+	
+}
+.topnav-a{
+	position: absolute;
+	top: 10px;
+	left: -5px;
+     display: inline-block;
+     width: 17px;
+     height: 20px;
+
+     background: url(./img/sprite1.png)no-repeat 0px -21px;
+}
+.topnav-b{
+	background: url(./img/sprite1.png)no-repeat -189px -21px;
+     
+}
+
+/*
 #top .topnav{
 	float: right;
 
 }
 #top .topnav li{
 	float: left;
-	display: inline;
 	height: 39px;
 	line-height: 39px;
 	text-align: center;
-	margin-bottom: 6px;
+	padding-left: 15px;
+	margin-right: 16px;
  }
-.topnav span{
+
+
 }
-.topnav-a{
-	width: 16px;
-	height: 16px;
-}
-#top .topnav a{
+.topnav a{
 	color:#666;
 	font-size: 12px;
+	line-height: 39px;
 	border-right: 1px dotted #ccc;
-	margin-left: 15px;
-	padding-right: 16px;
-
+}
+.topnav span{
+	
 }
 .topnav .not-dot{
 	border-right: none;
 }
 
 
-.topnav .topnav-a{
-	background: url(./img/sprite1.png) no-repeat 0px -21px;
+.topnav-a{
+	display: inline-block;
+	width: 18px;
+	height: 20px;
+    line-height: 39px;
+    background: url(./img/sprite1.png) no-repeat 0px -21px;
 }
 
 .topnav .topnav-b{
@@ -75,7 +112,6 @@ a:hover{
 	background: url(./img/sprite1.png) no-repeat -171px -45px;
 }
 */
-
 #header{
 	position: relative;
     margin: 0 auto;
