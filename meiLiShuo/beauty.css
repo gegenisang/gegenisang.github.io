@@ -115,6 +115,12 @@ a:hover{
 	padding-right:9px;
 }
 .shopping-car em{
+display: inline-block;
+width: 17px;
+height: 13px;
+margin-bottom: -1px;
+margin-left: 8px;
+margin-right: -4px;
 background: url(./img/sprite1.png)no-repeat -192px -45px;
 }
 #header .indent{
@@ -127,7 +133,12 @@ background: url(./img/sprite1.png)no-repeat -192px -45px;
     border: 1px solid #6e6e6e;
 }
 .indent em{
-
+	display: inline-block;
+	width: 13px;
+	height: 15px;
+	margin-bottom: -3px;
+	margin-left: 8px;
+	margin-right: -4px;
   background: url(./img/sprite1.png) no-repeat -223px -45px;
 }
 
@@ -157,13 +168,28 @@ background: url(./img/sprite1.png)no-repeat -192px -45px;
 
 
 }
-.navbar .active:link{
-	background: #ff6599;
+.navbar .active{
+	width: 58px;
+	height: 40px;
+	background: #ed3577;
 }
 .navbar .point{
-	padding-right: 2px;
-	padding-top: -20px;
+	display: inline-block;
+	width: 5px;
+	height: 3px;
+	margin-bottom: 4px;
+	margin-left: -6px;
+	margin-right: 20px;
 	background:url(./img/sprite1.png) no-repeat -22px -70px;
+}
+.navbar .hot{
+	display: inline-block;
+	width: 18px;
+	height: 15px;
+	margin-bottom: -3px;
+	margin-left: -12px;
+	margin-right: 10px;
+	background: url(./img/tao.png);
 }
 /*Hot样式*/
 
