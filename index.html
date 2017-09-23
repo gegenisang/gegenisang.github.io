@@ -1,448 +1,244 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
-	<title>小米网</title>
-	<link rel="stylesheet" type="text/css" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>扇贝，知道你在改变</title>
+    <link rel="shortcut icon" href="img/speak/shanbay_favicon.png">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-	<div><a style="font-size:30px;color:#fff; font-weight:bold;background:#ff6599;" href="meiLiShuo/beauty.html">美丽说</a></div>
-	<div id="top">
+    <div id="content">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav navbar-nav navbar-right">
+                    <a href="login.html">登录</a>
+                    <span>|</span>
+                    <a href="register.html">注册</a>
+                </div>
+            </div>
+        </nav>
+        <div class="section0">
+            <div class="container">
+                <div class="row text-center">
+                    <img src="img/index/logo_v5.png" alt="logo" id="logo">
+                </div>
+            </div>
+        </div>
+        <div class="section1">
+            <div class="container">
+                <div class="row">
+                    <div class="home-link text-center">
+                        <a href="javascript:;" data-target="#myCarousel" data-slide-to="0" class="active">单词</a>
+                        <a href="javascript:;" data-target="#myCarousel" data-slide-to="1">听力</a>
+                        <a href="javascript:;" data-target="#myCarousel" data-slide-to="2">口语</a>
+                        <a href="javascript:;" data-target="#myCarousel" data-slide-to="3">阅读</a>
+                        <a href="javascript:;" data-target="#myCarousel" data-slide-to="4">炼句</a>
+                    </div>
+                </div>
+                <div class="row">
 
-		<ul class="top_meau">
-			<li>
-				<a href="javascript:;">小米网</a>
-			</li>
-			<li>
-				<a href="javascript:;">MIUI</a>
-			</li>
-			<li>
-				<a href="javascript:;">米聊</a>
-			</li>
-			<li>
-				<a href="javascript:;">游戏</a>
-			</li>
-			<li>
-				<a href="javascript:;">多看阅读</a>
-			</li>
-			<li>
-				<a href="javascript:;">云服务</a>
-			</li>
-			<li>
-				<a href="javascript:;">小米网移动版</a>
-			</li>
-			<li class="no_dot">
-				<a href="javascript:;">Select region</a>
-			</li>
-		</ul>
-		<ul class="top_meau top_bar">
-			<li>
-				<a href="javascript:;">登录</a>
-			</li>
-			<li class="no_dot">
-				<a href="javascript:;">注册</a>
-			</li>
-		</ul>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                            <li data-target="#myCarousel" data-slide-to="4"></li>
+                        </ol>
 
-	</div>
-	<div id="box">
-		<div id=header>
-			<div id="logo">
-				<a href="javascript:;">
-					<img src="./image/1.png"></a>
-			</div>
-			<div class="search">
-				<form action="">
-					<input class="text" type="text" value="" placeholder="搜索你要的商品">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
 
-					<input class="btn" type="submit" value=""></form>
-				<div class="hot-words">
-					<div class="word-a"><a href="javascript:;">小米手机4</a></div>
-					<div class="word-b"><a href="javascript:;">小米电视</a></div>
-					<div class="word-c"><a href="javascript:;">红米Note</a></div>
-				</div>
-			</div>
-			<p class="p">
-				<img src="./image/2.png">11月18日预约开放购买</p>
-			<div class="shopping">
-				<a href="javascript:;">
-					<img src="./image/7.png">购物车</a>
-			</div>
-		</div>
-		<div class="nav">
-			<div class="nav-first">
-				<ul>
-					<h4>全部商品分类</h4>
-					<li>
-						<h5>购买手机</h5>
-						小米4 小米3 红米 红米Note
-					</li>
-					<li>
-						<h5>购买电视与平板</h5>
-						小米电视 小米盒子 小米平板
-					</li>
-					<li>
-						<h5>后盖与个性化配件</h5>
-						米键 后盖 贴纸 手机支架
-					</li>
-					<li>
-						<h5>保护套与贴膜</h5>
-						保护套/保护壳 贴膜 防尘塞
-					</li>
-					<li>
-						<h5>移动电源与电池</h5>
-						小米移动与电源 电池 充电器
-					</li>
-					<li>
-						<h5>路由器与智能家庭</h5>
-						小米路由器 随身WiFi 智能家庭
-					</li>
-					<li>
-						<h5>耳机与音响</h5>
-						小米活塞耳机 更多耳机 音箱
-					</li>
-					<li>
-						<h5>小米生活方式</h5>
-						小米手环 服装 血压计 米兔
-					</li>
-				</ul>
-			</div>
-			<div class="nav-main">
-				<ul class="main">
-					<li>
-						<a href="javascript:;">首页</a>
-					</li>
-					<li>
-						<a href="javascript:;">小米手机</a>
-					</li>
-					<li>
-						<a href="javascript:;">红米</a>
-					</li>
-					<li>
-						<a href="javascript:;.">小米平板</a>
-					</li>
-					<li>
-						<a href="javascript:;">小米电视</a>
-					</li>
-					<li>
-						<a href="javascript:;">盒子</a>
-					</li>
-					<li>
-						<a href="javascript:;">路由器</a>
-					</li>
-					<li>
-						<a href="javascript:;">合约机</a>
-					</li>
-					<li>
-						<a href="javascript:;">服务</a>
-					</li>
-					<li>
-						<a href="javascript:;">社区</a>
-					</li>
-				</ul>
-				<img src="./image/50.png" alt="picture" title="双十一促销">
-				<div class="footer">
-					<img src="./image/51.png">
-				</div>
-			</div>
-		</div>
+                            <div class="item active">
+                                <img src="img/index/1.png" alt="words" style="width:100%;">
+                                <div class="carousel-caption word-bdc">
+                                    <h4>扇贝单词</h4>
+                                    <p>智慧词根，派生词，权威英文字典</p>
+                                    <p>精选英文例句真人发音</p>
+                                    <p>启发式提示抗遗忘</p>
+                                    <p>单词记住啦</p>
+                                    <a class="download-btn" href="javascript:;">下载 APP</a>
+                                </div>
+                            </div>
 
-		<div id="content">
-			<div class="star">
-				<div class="star1">
-					<h3>
-						小米明星单品
-						<a class="star-1" href="javascript:;">根据机型选配件</a>
-					</h3>
-				</div>
+                            <div class="item">
+                                <img src="img/index/7.png" alt="listen" style="width:100%;">
+                                <div class="carousel-caption listen">
+                                    <h4>扇贝听力</h4>
+                                    <p>一句一句听，听懂为止</p>
+                                    <p>听不懂，刮开刮刮卡</p>
+                                    <p>写不出，提示来帮忙</p>
+                                    <p>没有听不出的文章</p>
+                                    <a class="download-btn" href="javascript:;">下载 APP</a>
+                                </div>
+                            </div>
 
-				<ul>
-					<li class="list">
-						<img class="pic-1" src="./image/9.png">
-						<div id="text-bottom">
-								<h4>10400mAh小米移动电源</h4>
-								<p>全铝合金金属外壳，LG/三星等优质电芯</p>
-						</div>
-						
+                            <div class="item">
+                                <a href="speak.html">
+                                    <img src="img/index/3.png" alt="speak" style="width:100%;">
+                                </a>
+                                <div class="carousel-caption speak">
+                                    <h4>扇贝口语</h4>
+                                    <p>雅思口语，和考官聊High</p>
+                                    <p>地道美语，带你玩遍全球</p>
+                                    <p>边听边读说出口</p>
+                                    <p>说过不会忘</p>
+                                    <a class="download-btn" href="javascript:;">下载 APP</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/index/8.png" alt="news" style="width:100%;">
+                                <div class="carousel-caption news">
+                                    <h4>扇贝阅读</h4>
+                                    <p>精选每日新闻，用英语看世界</p>
+                                    <p>点击查词，扫清单词障碍</p>
+                                    <p>阅读笔记，帮你看懂英文</p>
+                                    <p>读后感，让你看懂人生</p>
+                                    <a class="download-btn" href="javascript:;">下载 APP</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/index/2.png" alt="sentence" style="width:100%;">
+                                <div class="carousel-caption sentence">
+                                    <h4>扇贝炼句</h4>
+                                    <p>精选短语和句型，句句较真</p>
+                                    <p>专业外教真人配音</p>
+                                    <p>炼听力，炼拼写，炼表达</p>
+                                    <p>炼到你掌握</p>
+                                    <a class="download-btn" href="javascript:;">下载 APP</a>
+                                </div>
+                            </div>
 
-					</li>
-					<li class="list">
-						<img class="pic-2" src="./image/10.png">
+                        </div>
 
-						<div id="text-bottom">
-								<h4>小米盒子 新上市</h4>
-								<p>4K网络机顶盒，随时看海量高清网络电影、电视剧</p>
-						</div>
-					
-					</li>
-					<li class="list">
-						<img class="pic-3" src="./image/12.png">
-						<div id="text-bottom">
-							<h4>免预约买小米平板</h4>
-							<p>四核2.2GHz处理器，7.9英寸视网膜屏</p>
-						</div>
-					</li>
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <!-- <span class="sr-only">Previous</span> -->
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <!-- <span class="sr-only">Next</span> -->
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1">
+                        <div class="col-sm-4 text-center">
+                            <a href="javascript:;">
+                                <div class="first">
+                                    <img src="img/index/6.png" alt="单词量">
+                                </div>
+                            </a>
+                            <div class="text">
+                                <a href="javascript:;">
+                                    <h4>测试词量</h4>
+                                </a>
+                                <p>不知道自己的词汇量</p>
+                                <p>还怎么学英语</p>
+                                <p>赶快来试一试</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <a href="javascript:;">
+                                <div class="second">
+                                    <img src="img/index/5.png" alt="保险">
+                                </div>
+                            </a>
+                            <div class="text">
+                                <a href="javascript:;">
+                                    <h4>考试保险</h4>
+                                </a>
+                                <p>相信扇贝，更相信自己</p>
+                                <p>一份努力一分收获</p>
+                                <p>考试不过找扇贝</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <a href="javascript:;">
+                                <div class="third">
+                                    <img src="img/index/4.png" alt="社区">
+                                </div>
+                            </a>
 
-				</ul>
-			</div>
-			<div class="star-pic">
+                            <div class="text">
+                                <a href="javascript:;">
+                                    <h4>扇贝社区</h4>
+                                </a>
+                                <p>学习路上，你不孤单</p>
+                                <p>小组长"骚扰"你，关怀你</p>
+                                <p>就是要让你一起坚持</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container footer-bg">
+                <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <h4>如何使用</h4>
+                                <ul>
+                                    <li> <a href="javascript:;">帮助</a></li>
+                                    <li> <a href="javascript:;">小组</a></li>
+                                    <li> <a href="javascript:;">博客</a></li>
+                                    <li> <a href="javascript:;">论坛</a></li>
+                                    <li> <a href="javascript:;">你问我答</a></li>
+                                </ul>
 
-				<div class="star2">
-					<p>
-						新品上架
-						<a class="star2a" href="javascript:;">更多&nbsp;&gt;</a>
-					</p>
-				</div>
-				<div class="pic-left">
-					<div class="star2-a">
-						<img src="./image/13.png"></div>
-					<div class="star2-b">
-						<img src="./image/17.png"></div>
-					<div class="star2-c">
-						<img src="./image/18.png"></div>
-					<div class="star2-d">
-						<img src="./image/19.png"></div>
-					<div class="star2-e">
-						<img src="./image/20.png"></div>
-					<div class="star2-f">
-						<img src="./image/21.png"></div>
-				</div>
-				<div class="pic-right">
-					<div class="right-a">
-						<img src="./image/60.png"></div>
-					<div class="right-b">
-						<img src="./image/61.png"></div>
-					<div class="right-c">
-						<img src="./image/62.png"></div>
-				</div>
-			</div>
-			<div class="like">
-				<div class="like-top">
-					<p>大家都喜欢</p>
-				</div>
-				<div class="like-left">
-					<div class="left-aa">
-						<img src="./image/22.png"></div>
-					<div class="left-bb">
-						<img src="./image/23.png"></div>
-					<div class="left-cc">
-						<img src="./image/24.png"></div>
-				</div>
-				<div class="like-right">
-					<div class="right-aa">
-						<img src="./image/67.png">
-					</div>
-				</div>
-			</div>
-			<div class="hot">
-				<div class="hot-top">
-					<p>热评产品</p>
-				</div>
-				<div class="hot-product">
-					<div class="product-a">
-						<img src="./image/71.png"></div>
-					<div class="product-b">
-						<img src="./image/72.png"></div>
-					<div class="product-c">
-						<img src="./image/73.png"></div>
-				</div>
+                            </div>
+                            <div class="col-sm-3">
+                                <h4>关于扇贝</h4>
+                                <ul>
+                                    <li><a href="javascript:;">关注我们</a></li>
+                                    <li><a href="javascript:;">加入我们</a></li>
+                                    <li> <a href="javascript:;">关于我们</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-3">
+                                <h4>开发者</h4>
+                                <ul>
+                                    <li> <a href="javascript:;">wiki</a></li>
+                                </ul>
 
-			</div>
-			<div class="sale">
-				<div class="sale-price">
-					<p>特价商品</p>
-				</div>
-				<div class="price-pic">
-					<div class="price-a">
-						<img src="./image/80.png">
-					</div>
-					<div class="price-b">
-						<img src="./image/81.png">
-					</div>
-					<div class="price-c">
-						<img src="./image/82.png">
-					</div>
+                            </div>
+                            <div class="col-sm-3">
+                                <h4>合作伙伴</h4>
+                                <ul>
+                                    <li>
+                                        <a href="javascript:;">
+                                            <img src="img/index/Collins.jpg" alt="Collins" class="collins">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
 
-				</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center footer-bottom">
+                    <p>Copyright © 2009-2017 版权所有：南京贝湾教育科技有限公司</p>
+                    <p>苏ICP备13045540号-2 公安备案号：32010202010034</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-			</div>
-			<div class="book">
-				<div class="book-top">
-					<p>多看图书<a class="book-a" href="javascript:;">更多&nbsp;&gt;</a></p>
-				</div>
-				<div class="book-list">
-					<div class="list-a">
-						<img src="./image/84.png">
-					</div>
-					<div class="list-b">
-						<img src="./image/85.png">
-					</div>
-					<div class="list-c">
-						<img src="./image/86.png">
-					</div>
-
-				</div>
-			</div>
-			<div class="miui">
-				<div class="miui-top">
-					<p>MIUI主题<a class="mini" href="javascript:;">更多&nbsp;&gt;</a></p>
-				</div>
-				<div class="miui-list">
-					<div class="miui-a">
-						<img src="./image/90.png">
-					</div>
-					<div class="miui-b">
-						<img src="./image/91.png">
-					</div>
-					<div class="miui-c">
-						<img src="./image/92.png">
-					</div>
-
-				</div>
-
-
-			</div>
-		</div>
-	</div>
-	<div id="footer">
-		<div class="public-container">
-			<ul>
-				<li>
-					<img src="./image/41.png">
-					<br>1小时快修服务</li>
-				<li>
-					<img src="./image/42.png">
-					<br>7天无理由退货</li>
-				<li>
-					<img src="./image/43.png">
-					<br>15天免费换货</li>
-				<li>
-					<img src="./image/44.png">
-					<br>满150元包邮</li>
-				<li>
-					<img src="./image/45.png">
-					<br>520余家售后网点</li>
-
-			</ul>
-
-		</div>
-		<div id="mid">
-			<div class="footer-col">
-				<p>
-					<span>帮助中心</span>
-					<br> 购物指南
-					<br> 支付方式
-					<br>配送方式</p>
-			</div>
-			<div class="footer-col">
-				<p>
-					<span>服务支持</span>
-					<br> 售后政策
-					<br> 自助服务
-					<br>相关下载</p>
-			</div>
-			<div class="footer-col">
-				<p>
-					<span>小米之家</span>
-					<br> 小米之家
-					<br> 服务网点
-					<br>预约亲临到店服务</p>
-			</div>
-			<div class="footer-col">
-
-				<p>
-					<span>关于小米</span>
-					<br> 了解小米
-					<br> 加入小米
-					<br>联系我们</p>
-			</div>
-			<div class="footer-col">
-
-				<p>
-					<span>关注我们</span>
-					<br> 新浪微博
-					<br> QQ空间
-					<br>官方微信</p>
-			</div>
-			<div class="footer-col">
-				<p>
-					<span>400-100-5678</span>
-					<br> 周一至周日 8：00-18：00
-					<br> (仅收市话费)
-					<br>
-					<span class="footer-b">24小时在线客服</span>
-				</p>
-			</div>
-
-		</div>
-
-		<div class="footer-bottom">
-			<ul>
-				<li>
-					小米旗下网站：
-					<a href="">小米网</a>
-					<span>|</span>
-				</li>
-				<li>
-					<a href="">MIUI</a>
-					<span>|</span>
-				</li>
-				<li>
-					<a href="">米聊</a>
-					<span>|</span>
-				</li>
-				<li>
-					<a href="">多看书城</a>
-					<span>|</span>
-				</li>
-				<li>
-					<a href="">小米路由器</a>
-					<span>|</span>
-				</li>
-				<li>
-					<a href="">繁體香港</a>
-					<span>|</span>
-				</li>
-				<li>
-					<a href="">繁體台湾</a>
-					<span>|</span>
-				</li>
-				<li>
-					<a href="">English</a>
-					<span>|</span>
-				</li>
-				<li>
-					<a href="">小米后院</a>
-					<span>|</span>
-				</li>
-				<li>
-					<a href="">小米天猫店</a>
-					<span>|</span>
-				</li>
-				<li>
-					<a href="">小米网盟</a>
-				</li>
-			</ul>
-			<p>
-				&copy;mi.com 京ICP证110507号 京ICP备10046444号 京公网安备1101080212535号 京网文[2014]0059-0009号
-			</p>
-			<div class="footer-logo">
-				<img src="./image/46.png"></div>
-			<div class="footer-search">
-				<select class="search">
-						<option value="chinese">中文</option>
-						<option value="Eiglish">英语</option>
-						<option value="Japan">日语</option>
-
-					</select>
-			</div>
-		</div>
-
-
-	</div>
-
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
